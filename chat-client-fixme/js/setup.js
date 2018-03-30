@@ -103,7 +103,7 @@ var displayData = function(data, user) {
     getData();
   });
 };
-
+//this function send Data
 var postData = function(message, username) {
   $.ajax({
     url: SERVER_URL,
